@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 with io.open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
 
-version = "0.0.1"
+version = "0.0.2"
 
 setup(
     name="convolut_tensorboard",
@@ -21,7 +21,7 @@ setup(
     zip_safe=False,
     python_requires=">=3.7",
     install_requires=[
-        "convolut>=0.0.3",
+        "convolut>=0.0.4",
         "tensorboard>=2.1.0"
     ],
     keywords="convolut tensorboard",
