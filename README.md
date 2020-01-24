@@ -24,7 +24,7 @@ from convolut_tensorboard import TensorboardLogger
 ```
 
 ## Environment variables
-* Telegram logger uses these envs for initialization
+* Tensorboard logger uses these envs for initialization
 
 ```.env
 CONVOLUT_LOGGER_TENSORBOARD_FOLDER=logs/tensorboard # default
